@@ -1253,9 +1253,9 @@ I bambni testati hanno età dai 6-10 anni. Per i confronti con fruppo di riferim
 \midrule
 
 \multirow{3}{*}{\textit{NTDA}} 
-& Lettura di brano (Sillabe corrette al sec.) & 6 & -1.68 & \textbf{$4°$} \\
-& Dettato di brano (Parole corrette in 2 min.) & 4 & -1.82 & \textbf{$3°$} \\
-& Calcolo scritto (Risposte corrette) & 1/20 & -2.20 & \textbf{$1°$} \\
+& Lettura di brano (Sillabe corrette al sec.) & 6 & -1.68 & $\mathbf{4°}$ \\
+& Dettato di brano (Parole corrette in 2 min.) & 4 & -1.82 & $\mathbf{3°}$ \\
+& Calcolo scritto (Risposte corrette) & 1/20 & -2.20 & $\mathbf{1°}$ \\
 \midrule
 
 \bottomrule
@@ -1263,9 +1263,6 @@ I bambni testati hanno età dai 6-10 anni. Per i confronti con fruppo di riferim
 \end{table}
 
 ```
-
-<!--
-
 
 ## Caso clinico 2 - **BC**
 
@@ -1313,9 +1310,9 @@ I cut-off sono stati ottenuti tramite un metodo di regressione che tiene anche c
 \textbf{BINS 12-18 (Giorgio et al., 2020)} & & \textbf{PG} & \textbf{PZ} & \textbf{Percentile} \\
 \midrule
 \multirow{3}{*}{\textit{Apprendimenti}} 
-& Lettura di brano (Sillabe corrette al sec.) & 2.10 & -2.32 & \textbf{$<1°$} \\
-& Dettato di brano (Parole corrette in 2 min.) & 20 & -3.32 & \textbf{$<1°$} \\
-& Calcolo scritto (Risposte corrette) & 1/12 & -3.44 & \textbf{$<1°$} \\
+& Lettura di brano (Sillabe corrette al sec.) & 2.10 & -2.32 & $\mathbf{<1°}$ \\
+& Dettato di brano (Parole corrette in 2 min.) & 20 & -3.32 & $\mathbf{<1°}$  \\
+& Calcolo scritto (Risposte corrette) & 1/12 & -3.44 & $\mathbf{<1°}$  \\
 \midrule
 
 \multirow{2}{*}{\textit{Memoria}}
@@ -1329,12 +1326,12 @@ I cut-off sono stati ottenuti tramite un metodo di regressione che tiene anche c
 
 \multirow{2}{*}{\textit{Ragionamento e funzioni esecutive}}
 & Ragionamento spaziale (RAVEN) & 35/48 & -1.22 & Norma \\
-& Fluenza fonemica (Parole totali) & 19 & -1.92 & \textbf{$2°$} \\
+& Fluenza fonemica (Parole totali) & 19 & -1.92 & $\mathbf{2°}$ \\
 \midrule
 
 \multirow{2}{*}{\textit{Linguaggio}}
-& Fluenza categoriale (Parole totali) & 30 & -1.83 & \textbf{$3°$} \\
-& Denominazione lessicale (Risposte corrette) & 50/80 & -3.8 & $<1°$ \\
+& Fluenza categoriale (Parole totali) & 30 & -1.83 & $\mathbf{3°}$  \\
+& Denominazione lessicale (Risposte corrette) & 50/80 & -3.8 & $\mathbf{<1°}$  \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1374,7 +1371,7 @@ per queste vedi \hyperlink{frame:aggiuntivi}{\textbf{\underline{Materiali Aggiun
 ## Materiali Aggiuntivi
 \label{frame:aggiuntivi}
 
-Puoi scaricare materiali aggiuntivi da questo
+Puoi scaricare materiali aggiuntivi da questo 
 
 
 <!--
