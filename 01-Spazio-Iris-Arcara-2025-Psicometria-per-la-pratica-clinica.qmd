@@ -14,6 +14,8 @@ header-includes:
   \usepackage{multirow}
   \usepackage{booktabs}
   \usepackage{graphicx}
+  \usepackage{hyperref}
+
 
 ---
 
@@ -34,8 +36,6 @@ header-includes:
 \date{29/11/2025}
 \maketitle
 ```
-
-# Introduzione
 
 ## Presentazione 1/2
 
@@ -75,7 +75,7 @@ header-includes:
 
 ## 
 ```{=latex}
-\center \Large
+\center
 
 \emph{Cosa vi aspettate da questo corso?}\\
 \pause
@@ -198,6 +198,7 @@ _(cosa succede se sbaglio clamorosamente nell’interpretazione di un test? Non 
 \pause
 _(È stato il test a dirlo, non io!)_
 \pause
+\vfill
 \textbf{Considero imprescindibile l'\underline{interpretazione} dei test}
 
 <!--
@@ -245,7 +246,7 @@ Ma sono conoscenze teoriche e cliniche che determinano quale è la domanda giust
 
 Esistono modi più giusti (e altri più sbagliati) di utilizzare e interpretare i test e questi derivano proprio da principi di psicometria e statistica.
 
-Se si utilizza un approccio _evidence based_ e _scientifico_ alla pratica di valutazione cognitiva/neuropsicologica non è semplicemente una questione di opinioni, ma di principi: \pause
+Se si utilizza un approccio _evidence based_ e _scientifico_ alla pratica di valutazione cognitiva/neuropsicologica non è semplicemente una questione di opinioni: \pause
 
 - ci sono test migliori di altri. \pause
 - ci sono procedure e pratiche migliori di altri. \pause
@@ -898,6 +899,8 @@ Questo però crea un problema e cioè **gradini arbitrari** tra fasce. Es. 3-4 a
 
 ## Esempio Tabella 1
 
+\scriptsize
+
  Percentile | Età 8 | Età 9 | Età 10 |
 |------------|-------|--------|--------|
 | N         | 100    | 100   | 100 |
@@ -906,6 +909,7 @@ Questo però crea un problema e cioè **gradini arbitrari** tra fasce. Es. 3-4 a
 
 
 \pause
+\normalsize
 un punteggio di 18 per un bambino di 9 anni.
 
 Z = (18 - 24) / 5 = - 1.2
@@ -1184,6 +1188,44 @@ Usare norme da altri paesi è già in sé una grande differenza. Confrontando No
 Ci mancano tantissime informazioni che ci aiuterebbero a capire meglio il caso e fare una valutazione più precisa e consapevole.
 ```
 
+## Interpretazione dei test
+
+Tutte le considerazioni evidenziano come l'utilizzo di un test assume **sempre** un interpretazione.
+
+Di seguito sono ricordati alcuni aspetti chiave e in particolare, che nell'utilizzo dei test facciamo delle assunzioni implicite.
+Dovremmo il più possibile essere consapevoli di queste e di come influenzano le conclusioni che traiamo.
+
+## Assunzioni implicite
+
+Anche semplicemente nell'interpretare valore sotto cut-off $\rightarrow$ deficit nella funzione misurata stiamo assumendo.
+
+- Che il test abbia misurato ciò che intendeva misurare \pause
+- Che l’ansia abbia avuto un ruolo trascurabile \pause
+- Che il soggetto era sufficientemente motivato e non ha finto un deficit. \pause
+- Che eventuali danni ad altre funzioni cognitive non hanno avuto un ruolo 	cruciale. \pause
+- Che i dati normativi erano adeguati per stimare la prestazione del soggetto. \pause
+- etc.
+
+## Accento su integrazione non su soggettività
+
+Alcune interpretazioni sono migliori di altre.
+
+Le interpretazioni più adeguate sono quelle che integrano tutte le informazioni disponibili.
+
+
+## Non tutte le evidenze sono uguali
+![](Figures/triangle.png){fig-align="center" width="15%"}
+
+Per ogni insieme di evidenze sono possibili più interpretazioni. 
+
+Non esiste una formula matematica o algoritmo per dire come combinarle, ma esistono interpretazioni peggiori ed interpretazioni migliori che dipendono da come sono correttamente considerate le evidenze disponibili.
+
+In molti casi non sarà facile dire che si ha un’interpretazione “giusta” in mano, ma solo un’interpretazione supportata dalle evidenze.
+
+## Integrazione e ricerca attiva
+![](Figures/Active_collection_2.png)
+
+
 
 ## Caso clinico 1 - **AB**
 
@@ -1371,7 +1413,7 @@ per queste vedi \hyperlink{frame:aggiuntivi}{\textbf{\underline{Materiali Aggiun
 ## Materiali Aggiuntivi
 \label{frame:aggiuntivi}
 
-Puoi scaricare materiali aggiuntivi da questo 
+Puoi scaricare materiali aggiuntivi da questo \href{https://drive.google.com/drive/folders/15IM7YOYKyCpNT-WTDP-vEYpjhBW4cbE2?usp=drive_link}{\textbf{\underline{Link}}}
 
 
 <!--
