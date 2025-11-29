@@ -132,7 +132,7 @@ Non basta che un test sia “pubblicato” o “validato” perché sia utilizza
 ## Perché sono importanti psicometria e statistica? 2/2
 
 \vspace{2em}
-Grazie alle conoscenze metodologiche possiamo scegliere quale test è meglio di un altro.
+Grazie alle conoscenze metodologiche possiamo scegliere quale test è meglio di un altro e anche capire con maggiore consapevolezza le informazioni che il test ci fornisce. 
 
 \pause
 \vspace{2em}
@@ -184,17 +184,17 @@ Grazie alle conoscenze metodologiche possiamo scegliere quale test è meglio di 
 
 - Le abilità cliniche/forensi trascendono le conoscenze metodologiche/psicometriche.
 \pause
-_(si può essere ottimi neuropsicologi clinici senza conoscere questi aspetti)_
+_(si può essere ottimi psicologi/neuropsicologi clinici senza conoscere questi aspetti)_
 
 ## Perché psicometria/statistica a volte sono tralasciati? (2/3)
 
-- In neuropsicologia clinica non ci sono feedback chiari di un utilizzo inadeguato dei test o di **errori**.
+- In neuropsicologia/psicologia clinica non ci sono feedback chiari di un utilizzo inadeguato dei test o di **errori**.
 \pause
-_(cosa succede se sbaglio clamorosamente nell’interpretazione di un test? Non molto)_
+_(cosa succede se sbaglio clamorosamente nell’interpretazione di un test? Non molto come feedback al/alla professionista, ma potenzialmente molto come impatto alla persona esaminata)_
 
 
 ## Perché psicometria/statistica a volte sono tralasciati? (3/3)
-- È più facile fidarsi “ciecamente” di un test, e delegare la responsabilità al test (invece che prendersela come neuropsicologi) ed è più semplice considerarlo come uno strumento oggettivo.
+- È più facile fidarsi “ciecamente” di un test, e delegare la responsabilità al test (invece che prendercela noi) ed è più semplice considerarlo come uno strumento oggettivo.
 \pause
 _(È stato il test a dirlo, non io!)_
 \pause
@@ -260,6 +260,7 @@ Se si utilizza un approccio _evidence based_ e _scientifico_ alla pratica di val
 \center
 \emph{Cosa controllate prima di scegliere un test? Su cosa vi basate?}
 
+
 ## Le principali qualità psicometriche dei test
 ```{=latex}
 \begin{itemize}
@@ -322,6 +323,7 @@ Essi presentano alcune caratteristiche (che discuteremo nel corso). Sono diversi
 
 ```
 
+
 ## Nota su valori minimi
 
 Nelle prossime slides mostrerò alcuni "valori minimi desiderabili" per qualità.
@@ -359,6 +361,7 @@ Non ha senso dire che **un test è valido**
 
 <br>
 \small
+\vfill
 Esistono diverse classificazioni di validità e affidabilità. Quella presentata è solo una delle possibili classificazioni. 
 Nelle prossime slides approfondisco due importanti tipi di Validità.
 
@@ -391,9 +394,9 @@ La validità di criterio essere distinta in **concorrente** se il criterio è mi
 
 ## Validità di criterio 3/3
 
-La validità di criterio è spesso espressa come correlazione (se criterio è continuo). In tal caso valori desiderabili sono **>0.80**.
+La validità di criterio è spesso espressa come correlazione (se criterio è continuo). In tal caso valori desiderabili sono $\mathbf{\geq 0.80}$ .
 
-In caso il criterio è una variabile categoriale sono spesso riportare Sensibilità/Specificità o altre caratteristiche. In tal caso i valori dovrebbero essere alti (almeno **>0.80** di Sensibilità e di Specificità). Valori più bassi indicano classificazioni non soddisfacenti.
+In caso il criterio è una variabile categoriale sono spesso riportare Sensibilità/Specificità o altre caratteristiche. In tal caso i valori dovrebbero essere alti (almeno $\mathbf{\geq 0.80}$ di Sensibilità e di Specificità). Valori più bassi indicano classificazioni non soddisfacenti.
 
 ## Altro su Validità
 In generale per qualsiasi test **dovremmo avere evidenza che stia misurando ciò che intende misurare**.
@@ -437,8 +440,8 @@ L’**Affidabilità** (o **Attendibilità**) è la qualità di un test di fornir
 
 L'affidabilità dovrebbe essere il più possibile alta:
 
-- valori $\mathbf{\geq 0.80}$ se si usa coefficiente di correlazione.
-- valori $\mathbf{\geq 0.70}$ se si usa Intraclass Coefficient
+- valori $\mathbf{\geq 0.80}$ se si usa coefficiente di correlazione di Pearson.
+- valori $\mathbf{\geq 0.70}$ se si usa Intraclass Correlation Coefficient (ICC)
 
 Valori più bassi indicano in generale un test meno preciso.
 
@@ -464,11 +467,11 @@ L'affidabilità inter-rater è associata ad alta _oggettività_.
 
 L'affidabilità inter-rater dovrebbe essere il più possibile alta:
 
-- valori $\mathbf{\geq 0.70}$ di Intraclass Coefficient
+- valori $\mathbf{\geq 0.70}$ di Intraclass Correlation Coefficient (ICC)
 
 Valori più bassi indicano in generale un test più dipendente dall'osservatore.
 
-## Quali affidabilità
+## Valutare affidabilità di un test
 
 Come per validità, **idealmente vorremmo avere più informazioni possibili su affidabilità del test.**
 
@@ -527,33 +530,63 @@ Ci torneremo
 
 Un punteggio al test in sé ci dice poco. Diventa più informativo quando viene comparato rispetto ad un gruppo di riferimento.
 
-In particolare, il confronto con i dati normativi, nel caso di disturbi del neurosviluppo ci aiuta a identificare possibili **deficit**. 
+In particolare, il confronto con i dati normativi, nel caso di disturbi del neurosviluppo ci aiuta a identificare, tramite delle inferenze, possibili **deficit**. 
 
-## Il gruppo di riferimento
+## Parentesi terminologica: deficit e danni cognitivi
+\scriptsize
 
-In contesto evolutivo, spesso è un gruppo di bambine/i senza ulteriore selezione (es. WISC-IV), oppure escludendo bambini con disabilità intellettive o con ulteriori criteri (es. Torre di Londra esclude bambini/e con punteggi molto bassi a Raven), oppure includendo una certa percentuale di bambini con sviluppo atipico (es. Leiter-III).
+Deficit e danni **non sono sinonimi**:
+
 \pause
-
-![](Figures/triangle.png){fig.align="center" width="15%"}
-**Questa differenza è fondamentale nell'interpretare i risultati ai test**
-
-## Valutare i deficit cognitivi
-\small
-
-Deficit e danni. **Non sono sinonimi**:
-
 **Deficit (cognitivo)**: una mancanza/difetto funzionale sul piano cognitivo quando paragonato con un gruppo di riferimento (spesso i pari) o una traiettoria di sviluppo attesa. Es. una persona che non è in grado di leggere come ci si atteso (con vista integra) ha un possibile disturbo (dislessia).
 
 \pause
 **Danno (cognitivo)**: un peggioramento di un'abilità cognitiva rispetto ad una condizione precedentemente raggiunta, in seguito ad un evento (può essere puntuale nel tempo, come un trauma, o non localizzabile, es. una malattia degenerativa).
 \vspace{2em}
 
+Nota che potrei avere un deficit in seguito ad un danno. Oppure un danno, ma _non_ un deficit.
+
 \footnotesize
 NOTA: questa non è necessariamente una terminologia condivisa. L’aspetto importante è però distinguere concettualmente questi due tipi di possibilità.
+
+## Parentesi terminologica: disturbi evolutivi e acquisiti
+
+A livello di terminologia distinguiamo inoltre:
+
+**disturbo evolutivo**: disturbo persistente che insorge durante lo sviluppo senza una causa specifica.
+
+**disturbo acquisito**: disturbo che si manifesta in seguito ad un evento specifico o una patologia acquisita.
+
 
 ## Nota terminologica
 
 Indicherò di seguito _deficit_, come il problema funzionale, mentre con _disturbo_, la categoria diagnostica a cui il deficit è ricondotto.
+
+
+## Dati normativi o gruppo di riferimento
+
+Anche se si parla spesso di norme o dati normativi, è più generico parlare di **gruppo di riferimento** (visto che può includere anche soggetti non tipici/normali).
+In contesto evolutivo, spesso è un gruppo di bambine/i senza ulteriore selezione (es. WISC-IV), oppure escludendo bambini con disabilità intellettive o con ulteriori criteri (es. Torre di Londra esclude bambini/e con punteggi molto bassi a Raven), oppure includendo una certa percentuale di bambini con sviluppo atipico (es. Leiter-III).
+
+\pause
+
+
+
+```{=latex}
+\vfill
+\begin{columns}
+\column{0.2\textwidth}
+\begin{figure}
+\includegraphics[scale=0.05]{Figures/triangle.png}
+\end{figure}
+
+\column{0.8\textwidth}
+\small
+\textbf{Queste differenze sono importanti nell'interpretare i risultati ai test} 
+
+\end{columns}
+```
+
 
 ## Significato dei punteggi 1/3
 ```{=latex}
@@ -566,7 +599,7 @@ Indicherò di seguito _deficit_, come il problema funzionale, mentre con _distur
 
 I punteggi grezzi sono poco informativi non solo perché i valori dipendono dal range dei punteggi (che spesso è arbitrario), ma anche perché un punteggio alto o basso dipende molto da quanto il test è difficile (o facile). 
 
-\textbf{Per trarre informazioni utili, in neuropsicologia i punteggi si confrontano spesso con dei dati di riferimento che ci aiutano a classificare la prestazione}. 
+\textbf{Per trarre informazioni utili, i punteggi ai test si confrontano spesso con dei dati di riferimento che ci aiutano a classificare la prestazione}. 
 
 ## Trasformazione punteggi in percentili 2/3
 ```{=latex}
@@ -586,7 +619,7 @@ Nel contesto dei test, questo processo è anche chiamato **standardizzazione**\f
 Il valore che delimita una certa percentuale è detto il **percentile** (es. il 15° percentile è il valore che delimita il 15% delle prestazioni più basse)
 \pause
 
-Tra i percentili rivestono particolare rilevanza alcuni specifici, spesso chiamati **cut-off**, che in genere è il valore che delimita il **5% delle prestazioni peggiori (5° percentile)**. 
+Tra i percentili rivestono particolare rilevanza alcuni specifici, spesso chiamati **cut-off di normalità**, che in genere è il valore che delimita il **5% delle prestazioni peggiori (5° percentile)**. 
 
 ## Cut-off e variabilità
 
@@ -604,9 +637,9 @@ Da notare che la soglia del **5%** è arbitraria e non ha in sé nessun signific
 (è analogo al al valore alpha in statistica che è arbitrariamente posto a 0.05)
 
 
-## Consultare cut-off o risultati
+## Consultare risultati o cut-off
 
-Spesso i cut-off solitamente riportati in tabelle, indipendentemente dal metodo usato per calcolarli. Di recente sono sempre più diffusi software che trasformano i punteggi e confrontano in maniera automatica con i cut-offs.
+Spesso i percentili corrispondenti ai punteggi (o i cut-off) sono riportati in tabelle, indipendentemente dal metodo usato per calcolarli. Di recente sono sempre più diffusi software che trasformano i punteggi e confrontano in maniera automatica con i cut-offs.
 
 ## Esempio di cut-off riportati in tabelle
 
@@ -614,21 +647,6 @@ Spesso i cut-off solitamente riportati in tabelle, indipendentemente dal metodo 
 \begin{flushright}
   Da APACS (Arcara \& Bambini, 2016)
 \end{flushright}
-
-## Valutare i deficit/danni cognitivi
-
-\begin{center}
-  \textbf{I  cut-off e i dati normativi}
-\end{center}
-
-I dati normativi sono dati raccolti su soggetti che assumiamo siano normali\footnote{vedremo che ci sono alcune eccezioni a volte, specie nel contesto dei test dello sviluppo}. Servono a stabilire quali prestazioni possiamo considerare nella norma e quali no.
-\vspace{2em}
-
-Chiamiamo i cut-off calcolato sui dati normativi **cut-off di normalità**.
-
-## I  cut-off e i dati normativi
-
-Se la/il bambina/o ha un punteggio al di fuori del cut-off di normalità inferisco che c'è _qualcosa che non va_ nella sua performance e spesso è inferito un **deficit**.
 
 
 ## Un aspetto delicato
@@ -687,7 +705,7 @@ La linea verticale indica il \textbf{cut-off di normalità}.
 \begin{columns}
 \column{0.8\textwidth}
 
-Il cut-off è un punteggio particolarmente basso che osserviamo in pochi soggetti normali e che pertanto inferiamo sia segno di un deficit cognitivo (talvolta, più nell'adulto, di un "danno").
+Il cut-off è un punteggio particolarmente basso che osserviamo in pochi soggetti normali e che pertanto \underline{inferiamo} sia segno di un deficit cognitivo (talvolta, più nell'adulto, di un "danno").
 \vspace{1em}
 
 In genere il cut-off è definito (arbitrariamente) come il valore che delimita il 5\% dei punteggi più bassi. 
@@ -709,7 +727,7 @@ NOTA: Il cut-off NON ci indica la probabilità che il soggetto sia normale o abb
 ```{=latex}
 \center 
 
-\emph{Immaginate di testare 100 bambini di scuola primaria con la WISC-IV, e immaginate di sapere con certezza (è un esperimento mentale), che sappiate già che i bambini sono tutti con sviluppo tipico.}
+\emph{Immaginate di testare 100 bambini di scuola primaria con la WISC-IV e che i dati normativi siano stati ottenuti solo su bambini che si assume essere sani. Immaginate inoltre di sapere con certezza (è un esperimento mentale), che sappiate già che i bambini sono tutti con sviluppo tipico.}
 \pause
 \emph{che percentuale di bambini vi aspettate cada al di sotto del cut-off del 5° percentile?}
 ```
@@ -721,20 +739,29 @@ Un aspetto controintuitivo dei cut-off di normalità (quando ottenuti solo su sa
 
 La risposta corretta è circa il 5% dei bambini.
 
+## Andare sotto il cut-off $\neq$ avere un deficit
 
-## Composizione del gruppo di riferimento 
-![](Figures/triangle.png){fig-align="center" width="15%"}
+![](Figures/triangle_2.png){fig-align="center" width="35%"}
+
+**Andare sotto il cut-off (5° percentile) non significa necessariamente avere un deficit**
+\pause
+
+Da un punto di vista psicometrico significa avere una performance che è improbabile osservare nel gruppo di riferimento.
+
+
+## Composizione del gruppo di riferimento 1/2
 
 Nei test del neurosviluppo talvolta la composizione del campione di riferimento include anche bambini con sviluppo non tipico (es. Leiter-III).
 
-In questo caso la possibile interpretazione cambia! perchè (idealmente) i punteggi più bassi identificano proprio questo gruppo.
+In questo caso la possibile interpretazione cambia! perchè (idealmente) i punteggi più bassi identificano proprio questo gruppo, ma non possiamo esserne certi.
 
-In questo caso (in teoria) i cut-off sono più bassi, ma al di sotto si ha maggiormente la certezza di classificare una performance "anomala".
+In questo caso (in teoria) i cut-off sono più bassi, ma al di sotto si ha maggiore probabilità (non nota) di classificare una performance "anomala".
 
-## Composizione del gruppo di riferimento 
-![](Figures/triangle.png){fig-align="center" width="15%"}
+## Composizione del gruppo di riferimento 2/2
 
-Alcuni test sul neurosviluppo possono escludere invece alcuni individui sulla base di punteggi ad altri test. Questi test sono più severi (cut-off più alti).  
+Alcuni test sul neurosviluppo possono escludere invece alcuni individui sulla base di punteggi ad altri test. Questi test sono più severi (cut-off più alti).  Nel confronto con altri test dobbiamo considerare questo.
+
+A meno che non diamo per scontato che quelli esclusi fossero tutti "deficitari"/"atipici", il rischio è avere tolto anche dei tipici, con risultati quindi meno conservativi.
 
 
 ## Domanda
@@ -763,12 +790,12 @@ Nei test di neurosviluppo di norma i dati sono divisi per età con una certa gra
 
 Alcune variabili sono meno rilevanti (es. scolarità che per scuola dell'obbligo è poco variabile)
 
-Altre variabili sono potenzialmente rilevanti, ma non è detto siano incluse (es. _Stato Socio-Economico_).
+**Altre variabili sono potenzialmente rilevanti, ma non è detto siano incluse** (es. _Stato Socio-Economico_).
 
 Qui un problema psicometrico/statistico si intreccia con un problema teorico (se vengo da una situazione che mi da uno svantaggio, ho un disturbo? Oppure semplicemente parto da una situazione diversa)
 
 ## Variabili demografiche e performance nello sviluppo
-![](Figures/race.png){fig-align="center" width="80%"}
+![](Figures/race.png){fig-align="center" width="70%"}
 
 
 ## Variabili da considerare nei dati normativi
@@ -816,6 +843,7 @@ In ogni test statistico **più ampio è il campione, più robusta è l'inferenza
 \pause
 2) **Z-score**. Metodo analogo al precendete. Se trasformiamo i dati in punti $Z$, un punteggio pari a -1.64 indica il cut-off dei 5% dei punteggi più bassi. Altri valori corrispondono a percentuali diverse.
 
+\pause
 $$
 Z = \frac{X - M}{SD}
 $$
@@ -1090,7 +1118,23 @@ Altrimenti la classificazione può essere molto specifica sul campione.
 
 Attenzione ai test che usano metodi basati su regressioni. Talvolta possono portare a stime distorte, specie per valori delle variabili (età e scolarità) che sono estremi (es. bassa scolarità o alta età), specie se campione non è distribuito omogeneamente.
 
-## Riepilogo su dati normativi e cut-off
+## Posso conoscere la probabilità di avere deficit o meno? 1/2
+
+Una domanda che potrebbe sorgere è: queste probabilità/percentili sono tutte molto controintuitive.
+Non c'è un modo per sapere un'informazione più semplice e diretta? Es.:
+
+_Quale è la probabilità che la/il bambina/o abbia un deficit?_
+\pause
+
+La risposta è, purtroppo,: \textbf{no}
+(se volete approfondire, dovreste vedere slides "Identificare una condizione di interesse in \hyperlink{frame:aggiuntivi}{\textbf{\underline{Materiali Aggiuntivi}}}).)
+
+## Posso conoscere la probabilità di avere deficit o meno? 2/2
+
+**Le probabilità/percentuali vanno interpretate in maniera indicativa e interpretate in integrazione con altre informazioni per giungere ad una conclusione**.
+
+
+## Riepilogo su quanto detto finora su dati normativi
 
 \small
 - I dati normativi servono per stimare la prestazione che ci aspetterebbe da un certo individuo tramite i dati di individui che sono simili all’individuo da valutare.
@@ -1170,9 +1214,9 @@ Usare norme da altri paesi è già in sé una grande differenza. Confrontando No
 \pause
 - Se sono usati punti z, medie ds o percentili non parametrici su fasce (es. di età), sarebbe meglio avere almeno 100 persone per gruppo (se meno, considerate possibili variabilità)
 \pause
-- in generale valutate rappresentatività del campione rispetto ad individuo da valutare.
-\pause
 - Se sono usate regressioni, attenzione soprattuto ed effetti agli estremi dei predittori.
+\pause
+- in generale valutate rappresentatività del campione rispetto ad individuo da valutare.
 \pause
 
 
@@ -1197,7 +1241,7 @@ Dovremmo il più possibile essere consapevoli di queste e di come influenzano le
 
 ## Assunzioni implicite
 
-Anche semplicemente nell'interpretare valore sotto cut-off $\rightarrow$ deficit nella funzione misurata stiamo assumendo.
+Anche semplicemente nell'interpretare valore sotto\\ cut-off $\rightarrow$ deficit nella funzione misurata stiamo assumendo.
 
 - Che il test abbia misurato ciò che intendeva misurare \pause
 - Che l’ansia abbia avuto un ruolo trascurabile \pause
@@ -1237,7 +1281,7 @@ Si effettua in data odierna una valutazione dello stato degli apprendimenti, del
 - Età: 8 anni
 - Sesso: M
 - Manualità dx
-- Scolarità: 1a primaria
+- Scolarità: 3a primaria
 
 ## **AB** - anamnesi personale
 
@@ -1286,7 +1330,7 @@ I bambni testati hanno età dai 6-10 anni. Per i confronti con fruppo di riferim
 \centering
 \begin{tabular}{llccc}
 \toprule
-\textbf{EINS 12-18 (Giorgio et al., 2020)} & & \textbf{PG} & \textbf{PZ} & \textbf{Percentile} \\
+\textbf{Test} & & \textbf{PG} & \textbf{PZ} & \textbf{Percentile} \\
 \midrule
 \multirow{3}{*}{\textit{VBVB}} 
 & Lettura di brano (Sillabe corrette al sec.) & 5 & -0.85 & $19°$ \\
@@ -1319,7 +1363,7 @@ Si effettua in data odierna una valutazione dello stato degli apprendimenti, del
 
 ## **BC** - anamnesi personale
 
-Nato e cresciuto in Moldavia fino all'età di 10 anni, si trasferisce in Italia 5 anni fa. Il padre è uscito dalle vite da molto tempo. Risiede a XXX insieme alla madre e il suo nuovo compagno.  Viene descritto come un ragazzo solitario che ama passare gran parte del suo tempo davanti al computer. Da più piccolo praticava calcetto, ma ha smesso da alcuni anni.
+Nato e cresciuto in Moldavia fino all'età di 10 anni, si trasferisce in Italia 4 anni fa. Il padre è uscito dalle vite da molto tempo. Risiede a XXX insieme alla madre e il suo nuovo compagno.  Viene descritto come un ragazzo solitario che ama passare gran parte del suo tempo davanti al computer. Da più piccolo praticava calcetto, ma ha smesso da alcuni anni.
 
 ## **BC** - anamnesi medica
 
@@ -1398,9 +1442,10 @@ Cercate più informazioni possibili sui diversi tipi di Validità e Affidabilit�
 
 ## Recap finale 3/3
 
-- Non dimenticate che ci sono altre qualità! (es. soglie per valutare cambiamenti nel tempo) \pause
+- ricordate che nell'utilizzo di un test avviene sempre un'**interpretazione** \pause
+- Non dimenticate che ci sono altre qualità! (es. soglie per valutare cambiamenti nel tempo).
 
-per queste vedi \hyperlink{frame:aggiuntivi}{\textbf{\underline{Materiali Aggiuntivi}}}
+per queste (non trattate) vedi \hyperlink{frame:aggiuntivi}{\textbf{\underline{Materiali Aggiuntivi}}}
 
 
 ## Conclusione
@@ -1414,6 +1459,33 @@ per queste vedi \hyperlink{frame:aggiuntivi}{\textbf{\underline{Materiali Aggiun
 \label{frame:aggiuntivi}
 
 Puoi scaricare materiali aggiuntivi da questo \href{https://drive.google.com/drive/folders/15IM7YOYKyCpNT-WTDP-vEYpjhBW4cbE2?usp=drive_link}{\textbf{\underline{Link}}}
+
+
+## Grazie dell'attenzione
+```{=latex}
+
+\begin{columns}
+\column{0.5\textwidth}
+\begin{center}
+{\large \textbf{Giorgio Arcara}}\\
+\vspace*{1em}
+giorgio.arcara@unipd.it\\
+giorgio.arcara@gmail.com\\
+\end{center}
+\vfill
+
+\column{0.5\textwidth}
+\begin{center}
+\href{https://giorgioarcara.github.io/oip-book/}{\underline{Oltre i Punteggi}}
+\vspace*{1em}
+\begin{figure}
+\includegraphics[scale=0.15]{Figures/Cover2.png}
+\end{figure}
+\url{https://oltreipunteggi.substack.com/p/oltre-i-punteggi-presentazione-del}
+\end{center}
+\end{columns}
+```
+
 
 
 <!--
