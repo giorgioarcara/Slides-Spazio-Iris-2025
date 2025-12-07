@@ -727,7 +727,7 @@ NOTA: Il cut-off NON ci indica la probabilità che il soggetto sia normale o abb
 ```{=latex}
 \center 
 
-\emph{Immaginate di testare 100 bambini di scuola primaria con la WISC-IV e che i dati normativi siano stati ottenuti solo su bambini che si assume essere sani. Immaginate inoltre di sapere con certezza (è un esperimento mentale), che sappiate già che i bambini sono tutti con sviluppo tipico.}
+\emph{Immaginate di testare 100 bambini di scuola primaria con la WISC-IV e che i dati normativi siano stati ottenuti solo su bambini che si assume essere sani. Immaginate inoltre di sapere con certezza (è un esperimento mentale), che i bambini sono tutti con sviluppo tipico.}
 \pause
 \emph{che percentuale di bambini vi aspettate cada al di sotto del cut-off del 5° percentile?}
 ```
@@ -1297,8 +1297,8 @@ nascita senza complicanze. Viene riportato dai genitori un lieve rallentamento n
 Il percorso scolastico di **AB** è segnato da difficoltà nella relazione con le scuole. I genitori riportano il cambio di due scuole di infanzia per problemi con gl insegnanti. Anche la frequenza alla scuola primaria (paritaria) è stata caratterizzata da ripetuti problemi di **AB** con gli insegnati.
 
 ## **AB** - Colloquio
-
 Al colloquio **AB** è collaborante ma irrequieto. Si lamenta rispetto all'esame che sta svolgendo e spesso si rivolge ai genitori (in particolare alla madre). Il comportamento è a tratti inadeguato per l'età (competenze pragmatico/sociali).
+Alla colloqui con i genitori entrambi sembrano molto ansiosi riguardo il figlio, talvolta in maniera eccessiva.
 
 ## **AB** - Test utilizzati
 Per la valutazione di **AB** sono utilizzati dei test ad hoc che provongono da due diverse Batterie, con lo scopo di avere un approfondimento e doppio check. Alcuni test vengono dalla **VBVB**, (Vecchia Batteria per la Valutazione del Bambino), ed altri vengono invece dalla nuova **NTDA** (Nuovi Test per I Disturbi dell'Apprendimento).
@@ -1319,7 +1319,7 @@ I bambini testati hanno età dai 6-10 anni, divisi in gruppi per anno di età. O
 
 
 I dati normativi della NTDA sono stati ottenuti da 800 partecipanti (italiani), sani, soprattutto provenienti dal nord Italia.
-I bambni testati hanno età dai 6-10 anni. Per i confronti con fruppo di riferimento è usato un metodo con regressione.
+I bambini testati hanno età dai 6-10 anni. Per i confronti con fruppo di riferimento è usato un metodo con regressione.
 
 
 ## **AB** - Risultati ai test

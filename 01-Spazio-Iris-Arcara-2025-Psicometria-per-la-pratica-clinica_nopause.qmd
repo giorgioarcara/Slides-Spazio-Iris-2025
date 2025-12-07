@@ -1,0 +1,1505 @@
+---
+title: ""
+author: "Giorgio Arcara"
+date: ""
+format:
+  beamer:
+    theme: metropolis
+    keep-tex: false
+incremental: false
+header-includes:
+  \setbeamerfont{title}{size=\large}
+  \usepackage{hyperref}
+  \setbeamertemplate{footline}[frame number]
+  \usepackage{multirow}
+  \usepackage{booktabs}
+  \usepackage{graphicx}
+  \usepackage{hyperref}
+
+
+---
+
+```{=latex}
+% TITLE SLIDES
+\title{\Large Psicometria per la Pratica Clinica\\ }
+\author{Giorgio Arcara,\\ Università di Padova \\ IRCCS San Camillo, Venezia}
+
+\titlegraphic{
+
+\vspace*{7cm}
+\includegraphics[scale=0.15]{Figures/LogoSanCamilloIRCCS_Unipd_alpha.png}
+\begin{center}
+\vspace{-2.2em}
+\includegraphics[scale=0.15]{Figures/CC_license_3_0.png}
+\end{center}
+}
+\date{29/11/2025}
+\maketitle
+```
+
+## Presentazione 1/2
+
+```{=latex}
+\begin{figure}[h!]
+\centering
+\begin{subfigure}{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.5\linewidth]{Figures/Tesi_Master.png}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=0.5\linewidth]{Figures/Val_neuro.jpg}
+\end{subfigure}
+
+\begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=0.5\linewidth]{Figures/Semeiotica.jpg}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=0.5\linewidth]{Figures/Methodology_book.jpg}
+\end{subfigure}
+\end{figure}
+```
+
+## Presentazione 2/2
+
+- IRCSS San Camillo, Venezia
+- Università degli studi di Padova
+
+## Aspetti organizzativi - Materiali
+
+**Condividerò tutto il materiale utilizzato e mostrato**
+
+## 
+```{=latex}
+\center
+
+\emph{Cosa vi aspettate da questo corso?}\\
+
+\vspace{1em}
+\emph{Ci sono domande specifiche a cui cercate risposta?}
+```
+
+## Obiettivi del corso
+
+Fornire strumenti pratici per utilizzare principi di psicometria e statistica nella pratica clinica (per valutazioni migliori).
+
+## Domanda
+```{=latex}
+\center 
+
+\emph{State valutando un bambino con sospetto Disturbo da deficit di Attenzione e Iperattività (ADHD). Alla vostra valutazione, tramite i vostri test, il bambino risulta nella norma.}\\
+\vfill
+
+\emph{In seguito, scoprite che una vostra collega, che stimate molto, aveva effettuato una valutazione non molto tempo prima, con conclusioni diverse. Utilizzando una batteria di recente sviluppo, il bambino aveva performance al di sotto della norma e aveva concluso per un possibile disturbo nel neurosviluppo}\\
+
+\vfill
+Come considerereste questa situazione?
+
+```
+
+## Non è una lezione su specifici test
+
+Impossibile coprire esaustivamente tutti i test.
+
+(e anche in maniera superficiale i principali test!)
+
+\vfill
+Conoscere i principi di psicometria ci permette di rispondere a domande su tutti i test esistenti e anche su test che ancora non esistono.
+
+
+
+## Perché sono importanti psicometria e statistica? 1/2
+
+Non basta che un test sia “pubblicato” o “validato” perché sia utilizzabile senza una riflessione critica. 
+
+
+**Non basta acquistare un test per poterlo utilizzare**
+
+
+**Non esistono standard minimi di qualità per un test affinché sia reso disponibile**
+
+
+
+<br>
+
+![](Figures/dispositivo_medico.png){width="30%" fig-align="center"}
+
+
+## Perché sono importanti psicometria e statistica? 2/2
+
+\vspace{2em}
+Grazie alle conoscenze metodologiche possiamo scegliere quale test è meglio di un altro e anche capire con maggiore consapevolezza le informazioni che il test ci fornisce. 
+
+
+\vspace{2em}
+
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[baseline=(current bounding box.center)]
+
+% Prima riga: sbagliato - giusto
+\node[anchor=west] at (0, 0) {\textbf{Sbagliato}};
+\node[anchor=east] at (10, 0) {\textbf{Giusto}};
+\draw[thick] (1.8, 0) -- (8.5, 0);
+
+% X al centro
+\node[text=red, font=\bfseries\Huge] at (5, 0) {X};
+
+% Seconda riga: peggio - meglio
+\node[anchor=west] at (0, -1.2) {\textbf{Peggio}};
+\node[anchor=east] at (10, -1.2) {\textbf{Meglio}};
+\draw[thick] (1.5, -1.2) -- (8.5, -1.2);
+
+\end{tikzpicture}
+\end{center}
+```
+
+## Un esempio dalla vita quotidiana
+
+
+```{=latex}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{figure}
+\includegraphics[scale=0.1]{Figures/termometro_orecchio.png}
+\end{figure}
+
+\column{0.5\textwidth}
+\begin{figure}
+\includegraphics[scale=0.1]{Figures/termometro_mercurio.png}
+\end{figure}
+\end{columns}
+
+\begin{center}
+\emph{quando usiamo strumenti di misurazione è utile e importante conoscerne le caratteristiche}
+\end{center}
+```
+
+
+## Perché psicometria/statistica a volte sono tralasciati? (1/3)
+
+- Le abilità cliniche/forensi trascendono le conoscenze metodologiche/psicometriche.
+
+_(si può essere ottimi psicologi/neuropsicologi clinici senza conoscere questi aspetti)_
+
+## Perché psicometria/statistica a volte sono tralasciati? (2/3)
+
+- In neuropsicologia/psicologia clinica non ci sono feedback chiari di un utilizzo inadeguato dei test o di **errori**.
+
+_(cosa succede se sbaglio clamorosamente nell’interpretazione di un test? Non molto come feedback al/alla professionista, ma potenzialmente molto come impatto alla persona esaminata)_
+
+
+## Perché psicometria/statistica a volte sono tralasciati? (3/3)
+- È più facile fidarsi “ciecamente” di un test, e delegare la responsabilità al test (invece che prendercela noi) ed è più semplice considerarlo come uno strumento oggettivo.
+
+_(È stato il test a dirlo, non io!)_
+
+\vfill
+\textbf{Considero imprescindibile l'\underline{interpretazione} dei test}
+
+<!--
+## La situazione attuale
+In neuropsicologia forense non c’è (ad oggi) una forte cultura psicometrica e statistica.
+
+Ci sono numerose pratiche problematiche **che possono portare ad errori nell'interpretazione dei test** (es. uso non consapevole dei punti-z)
+-->
+
+## I principi alla base di questa lezione 1/3
+Principi di psicometria e statistica possono aiutarvi a:
+
+- **identificare i test migliori**
+- **utilizzare correttamente i test**
+- **intepretare correttamente i risultati**
+
+
+Ma sono conoscenze teoriche e cliniche che determinano quale è la domanda giusta a cui rispondere (e quindi quale è il tipo di test corretto da usare).
+
+```{=latex}
+\vfill
+\begin{columns}
+  \column{0.8\textwidth}
+  \textbf{Non si può pensare all'utilizzo di uno strumento senza la teoria/competenze cliniche!}
+
+  \column{0.2\textwidth}
+  \raggedright
+  \includegraphics[scale=0.05]{Figures/triangle.png}
+\end{columns}
+\vfill
+```
+
+
+
+## \small L'importanza delle conoscenze clinico-teoriche (oltre che degli strumenti)
+
+![](Figures/wrenches.png){fig-align="center" width="80%"}
+
+
+## I principi alla base di questa lezione 2/3
+
+![](Figures/Active_collection_2.png)
+
+## I principi alla base di questa lezione 3/3
+
+Esistono modi più giusti (e altri più sbagliati) di utilizzare e interpretare i test e questi derivano proprio da principi di psicometria e statistica.
+
+Se si utilizza un approccio _evidence based_ e _scientifico_ alla pratica di valutazione cognitiva/neuropsicologica non è semplicemente una questione di opinioni: 
+
+- ci sono test migliori di altri. 
+- ci sono procedure e pratiche migliori di altri. 
+- ci sono interpretazioni migliori di altre.
+
+<!--
+# \small 1. Valutare le qualità psicometriche dei test psicologici, neuropsicologici, intellettivi e cognitivi dell'età evolutiva.
+-->
+
+## Domanda
+\center
+\emph{Cosa controllate prima di scegliere un test? Su cosa vi basate?}
+
+
+## Le principali qualità psicometriche dei test
+```{=latex}
+\begin{itemize}
+\item \textcolor{red}{\textbf{Validità}} 
+\item \textcolor{red}{\textbf{Affidabilità}} 
+\item \textcolor{red}{\textbf{Dati normativi}} 
+\item \textcolor{red}{\textbf{Altre qualità }}(es. soglie per valutare cambiamenti nel tempo)
+\end{itemize}
+```
+
+## Definizione di test
+
+```{=latex}
+\setlength{\fboxrule}{1.5pt}
+
+"Un test è una
+\alt<2->{\fcolorbox{red}{white}{\rule{0pt}{12pt}\hspace{2pt}procedura sistematica\hspace{2pt}}}{procedura sistematica}
+per\\
+\alt<3->{\fcolorbox{red}{white}{\rule{0pt}{12pt}\hspace{2pt}l’osservazione del comportamento\hspace{2pt}}}{l’osservazione del comportamento}
+di una persona e per la sua
+\alt<4->{\fcolorbox{red}{white}{\rule{0pt}{12pt}\hspace{2pt}descrizione con l’aiuto di una scala numerica\hspace{2pt}}}{descrizione con l’aiuto di una scala numerica}
+o un sistema di categorie.
+
+\begin{flushright}
+  \emph{(Cronbach, 1990, p.32)}
+\end{flushright}
+
+
+\onslide<5->{
+\begin{flushright}
+  \begin{figure}
+    \includegraphics[scale=0.05]{Figures/triangle.png}
+  \end{figure}
+\end{flushright}
+
+L’interesse non è mai nel comportamento in sé ma nel \textbf{costrutto} misurato da quel comportamento.
+
+\textbf{Costrutto}: un concetto psicologico non osservabile 
+}
+
+```
+## Cosa sono i test
+
+I test cognitivi/neuropsicologi utilizzati in ambito del neurosviluppo, sono principalmente test di *performance massima* (o prestazione massima) 
+
+Essi presentano alcune caratteristiche (che discuteremo nel corso). Sono diversi da questionari o test di *risposta tipica*.
+
+
+## Cosa sono i test
+```{=latex}
+\begin{figure}
+  \includegraphics[scale=0.3]{Figures/measurement_diagramma.png}
+\end{figure}
+
+\begin{flushright}
+  (Da Mondini, Cappelletti, Arcara, 2022)
+\end{flushright}
+
+\textbf{Costrutto}: Concetto psicologico non osservabile direttamente
+
+```
+
+
+## Nota su valori minimi
+
+Nelle prossime slides mostrerò alcuni "valori minimi desiderabili" per qualità.
+Ricordate che sono solo dei valori indicativi. In letteratura si possono trovare valori leggermente diversi.
+
+
+![](Figures/triangle.png){fig.align="center" width="15%"}
+**Non esiste un consensus su valori minimi per la qualità di un test** (vedi anche prima).
+
+
+## Validità
+
+La validità è la qualità di un test di misurare ciò che effettivamente vuole misurare. Il termine validità è sempre riferito ad un’**utilizzo** che si fa dei punteggi.
+\vfill 
+Non ha senso dire che **un test è valido**
+\vfill 
+
+```{=latex}
+\begin{center}
+\tikz[baseline=(t.base)]{
+  \node[inner sep=0pt, outer sep=0pt, anchor=base] (t)
+    {\emph{"usa questo test! è stato validato!"}};
+  \draw[red, thick] ([yshift=0.4em]t.south west) -- ([yshift=0.4em]t.south east);
+}
+\end{center}
+```
+
+## Tipi di validità
+
+- Validità di facciata
+- Validità di contenuto
+- Validità di costrutto (validità convergente/divegente)
+- Validità di criterio
+- Validità ecologica
+
+<br>
+\small
+\vfill
+Esistono diverse classificazioni di validità e affidabilità. Quella presentata è solo una delle possibili classificazioni. 
+Nelle prossime slides approfondisco due importanti tipi di Validità.
+
+## Validità di costrutto 1/2
+
+**Validità di costrutto**: indaga quanto il test misura effettivamente il costrutto che intende misurare valutando corenza interna degli item, oppure correlazione con altri test.
+
+È anche chiamata validità _convergente/divergente_, perché se il test misura in maniera appropriata ciò che vuole misurare dovrebbe avere punteggi coerenti con quelli di altri test che misurano lo stesso costrutto e indipendenti da quelli che misurano altri costrutti (si vedano \hyperlink{frame:aggiuntivi}{\textbf{\underline{Materiali Aggiuntivi}}}).
+
+
+## Validità di costrutto 2/2
+
+Non esistono valori minimi, ma dovrebbe essere riportata la correlazione con test di altri test e il valore dovrebbe essere ragionevolmente alto (almeno $\mathbf{\geq 0.40}$, correlazione moderata).
+
+Dovrebbero inoltre esserci prove su un'adeguata **struttura fattoriale**, se pertinente.
+
+## Validità di costrutto 3/3
+
+In senso generale il test dovrebbe darci prove empiriche (evidence based), che sta misurando ciò che intende misurare.
+
+## Validità di criterio 1/2
+
+È la capacità di un test di riuscire a prevedere un punteggio esterno (oppure una classificazione), detta **criterio**.
+
+Il criterio può essere il punteggio ad un test oppure una classificazione categoriale (appartenere al gruppo di bambini con ASD).
+
+## Validità di criterio 2/2
+
+La validità di criterio essere distinta in **concorrente** se il criterio è misurato nello stesso momento (es. un test breve è in grado di riflettere la classificazione di una batteria molto lunga), o **predittiva** se lo scopo è predire un evento futuro (es. predirei il rischio di difficoltà scolastiche nel futuro).
+
+## Validità di criterio 3/3
+
+La validità di criterio è spesso espressa come correlazione (se criterio è continuo). In tal caso valori desiderabili sono $\mathbf{\geq 0.80}$ .
+
+In caso il criterio è una variabile categoriale sono spesso riportare Sensibilità/Specificità o altre caratteristiche. In tal caso i valori dovrebbero essere alti (almeno $\mathbf{\geq 0.80}$ di Sensibilità e di Specificità). Valori più bassi indicano classificazioni non soddisfacenti.
+
+## Altro su Validità
+In generale per qualsiasi test **dovremmo avere evidenza che stia misurando ciò che intende misurare**.
+
+Un test può essere Valido per più scopi (avere evidenze scientifiche che misura bene l'attenzione, ma anche che è in grado di distinguere bambini con sviluppo tipico da quelli con sviluppo atipico)
+
+Vedi \hyperlink{frame:aggiuntivi}{\textbf{\underline{Materiali Aggiuntivi}}}. per ulteriori informazioni su Validità.
+
+## Domanda
+
+```{=latex}
+\center 
+
+\emph{State valutando un bambino con sospetto Disturbo da deficit di Attenzione e Iperattività (ADHD). Alla vostra valutazione, tramite i vostri test, il bambino risulta nella norma.}\\
+\vfill
+\emph{In seguito, scoprite che una vostra collega, che stimate molto, aveva effettuato una valutazione non molto tempo prima, con conclusioni diverse. Utilizzando una batteria di recente sviluppo, il bambino aveva performance al di sotto della norma e aveva concluso per un possibile disturbo nel neurosviluppo}\\
+\vfill
+Come considerereste questa situazione?
+
+```
+
+
+## Affidabilità
+
+L’**Affidabilità** (o **Attendibilità**) è la qualità di un test di fornire punteggi consistenti in diverse misurazioni, e può essere quindi intesa come la precisione di un test.
+
+## Tipi Affidabilità
+
+- Affidabilità test-retest
+- Affidabilità inter-rater
+- Affidabilità split-half
+- Consistenza Interna
+
+## Affidabilità test-retest
+
+È la qualità di un test di fornire informazioni consistenti in diverse misurazioni, assumendo che non ci sia stato un cambiamento in ciò che è misurato.
+
+È spesso considerata la più importante delle affidabilità.
+
+## Come valutare affidabilità test-retest
+
+L'affidabilità dovrebbe essere il più possibile alta:
+
+- valori $\mathbf{\geq 0.80}$ se si usa coefficiente di correlazione di Pearson.
+- valori $\mathbf{\geq 0.70}$ se si usa Intraclass Correlation Coefficient (ICC)
+
+Valori più bassi indicano in generale un test meno preciso.
+
+
+## Nota su affidabilità test-retest
+![](Figures/triangle.png){fig-align="center" width="15%"}
+L'affidabilità test-retest non è una misura di quanto possiamo usare il test per misure ripetute, ma semplicemente quanto il test è preciso.
+
+
+## Nota su affidabilità test-retest
+\small
+Due test con diversa affidabilità test-retest e l'impatto su valutazioni singole.
+
+![](Figures/affidabilità_test_retest.png){fig-align="center" height="80%"}
+
+## Affidabilità inter-rater
+
+È la qualità di un test di fornire informazioni consistenti, indipendentemente da chi effettua la valutazione.
+
+L'affidabilità inter-rater è associata ad alta _oggettività_.
+
+## Come valutare affidabilità inter-rater
+
+L'affidabilità inter-rater dovrebbe essere il più possibile alta:
+
+- valori $\mathbf{\geq 0.70}$ di Intraclass Correlation Coefficient (ICC)
+
+Valori più bassi indicano in generale un test più dipendente dall'osservatore.
+
+## Valutare affidabilità di un test
+
+Come per validità, **idealmente vorremmo avere più informazioni possibili su affidabilità del test.**
+
+## Domanda
+
+```{=latex}
+\center 
+
+\emph{State valutando un bambino con sospetto Disturbo da deficit di Attenzione e Iperattività (ADHD). Alla vostra valutazione, tramite i vostri test, il bambino risulta nella norma.}\\
+\vfill
+\emph{In seguito, scoprite che una vostra collega, che stimate molto, aveva effettuato una valutazione non molto tempo prima, con conclusioni diverse. Utilizzando una batteria di recente sviluppo, il bambino aveva performance al di sotto della norma e aveva concluso per un possibile disturbo nel neurosviluppo}\\
+\vfill
+Come considerereste questa situazione?
+
+```
+
+## Riepilogo su Validità e Affidabilità
+
+Nello scegliere un test o nel confrontare test, considerate:
+
+- Ho prove sulla validità? e sono convincenti?
+- Ho prove sulla affidabilità? sono convincenti?
+
+(un riassunto sui valori sarà presentato alla fine delle slides)
+
+<!--
+## 2. Standardizzazioni e tavole normative dei test italiani
+-->
+
+## Domanda
+```{=latex}
+\center 
+\emph{Perché si utilizzano i dati normativi?}\\
+```
+
+## Domanda
+
+
+```{=latex}
+\center 
+
+\emph{Un test ha un sistema di classificazione automatico e tramite un sistema a "black box". Inserendo i punteggi e alcune caratteristiche di chi è valutato, viene restituita una classificazione.}
+
+
+\emph{Avete informazioni sufficienti per valutare questo risultato e interpretarlo?}
+
+\emph{Perché?}
+
+\begin{center}
+Ci torneremo
+\end{center}
+```
+
+
+## L'utilizzo di dati normativi
+
+Un punteggio al test in sé ci dice poco. Diventa più informativo quando viene comparato rispetto ad un gruppo di riferimento.
+
+In particolare, il confronto con i dati normativi, nel caso di disturbi del neurosviluppo ci aiuta a identificare, tramite delle inferenze, possibili **deficit**. 
+
+## Parentesi terminologica: deficit e danni cognitivi
+\scriptsize
+
+Deficit e danni **non sono sinonimi**:
+
+
+**Deficit (cognitivo)**: una mancanza/difetto funzionale sul piano cognitivo quando paragonato con un gruppo di riferimento (spesso i pari) o una traiettoria di sviluppo attesa. Es. una persona che non è in grado di leggere come ci si atteso (con vista integra) ha un possibile disturbo (dislessia).
+
+
+**Danno (cognitivo)**: un peggioramento di un'abilità cognitiva rispetto ad una condizione precedentemente raggiunta, in seguito ad un evento (può essere puntuale nel tempo, come un trauma, o non localizzabile, es. una malattia degenerativa).
+\vspace{2em}
+
+Nota che potrei avere un deficit in seguito ad un danno. Oppure un danno, ma _non_ un deficit.
+
+\footnotesize
+NOTA: questa non è necessariamente una terminologia condivisa. L’aspetto importante è però distinguere concettualmente questi due tipi di possibilità.
+
+## Parentesi terminologica: disturbi evolutivi e acquisiti
+
+A livello di terminologia distinguiamo inoltre:
+
+**disturbo evolutivo**: disturbo persistente che insorge durante lo sviluppo senza una causa specifica.
+
+**disturbo acquisito**: disturbo che si manifesta in seguito ad un evento specifico o una patologia acquisita.
+
+
+## Nota terminologica
+
+Indicherò di seguito _deficit_, come il problema funzionale, mentre con _disturbo_, la categoria diagnostica a cui il deficit è ricondotto.
+
+
+## Dati normativi o gruppo di riferimento
+
+Anche se si parla spesso di norme o dati normativi, è più generico parlare di **gruppo di riferimento** (visto che può includere anche soggetti non tipici/normali).
+In contesto evolutivo, spesso è un gruppo di bambine/i senza ulteriore selezione (es. WISC-IV), oppure escludendo bambini con disabilità intellettive o con ulteriori criteri (es. Torre di Londra esclude bambini/e con punteggi molto bassi a Raven), oppure includendo una certa percentuale di bambini con sviluppo atipico (es. Leiter-III).
+
+
+
+
+
+```{=latex}
+\vfill
+\begin{columns}
+\column{0.2\textwidth}
+\begin{figure}
+\includegraphics[scale=0.05]{Figures/triangle.png}
+\end{figure}
+
+\column{0.8\textwidth}
+\small
+\textbf{Queste differenze sono importanti nell'interpretare i risultati ai test} 
+
+\end{columns}
+```
+
+
+## Significato dei punteggi 1/3
+```{=latex}
+\begin{center}
+\begin{figure}
+\includegraphics[scale=0.06]{Figures/triangle.png}
+\end{figure}
+\end{center}
+```
+
+I punteggi grezzi sono poco informativi non solo perché i valori dipendono dal range dei punteggi (che spesso è arbitrario), ma anche perché un punteggio alto o basso dipende molto da quanto il test è difficile (o facile). 
+
+\textbf{Per trarre informazioni utili, i punteggi ai test si confrontano spesso con dei dati di riferimento che ci aiutano a classificare la prestazione}. 
+
+## Trasformazione punteggi in percentili 2/3
+```{=latex}
+\begin{center}
+\begin{figure}
+\includegraphics[scale=0.06]{Figures/triangle.png}
+\end{figure}
+\end{center}
+```
+\small
+Per trasformare i punteggi ad un test cognitivo in qualcosa di interpretabile e utile spesso si effettua una trasformazione dal punteggio grezzo \underline{alla percentuale di campione o popolazione\footnote{approfondiremo questa differenza dopo}} \underline{che ottiene quel punteggio o un punteggio inferiore}.
+
+Nel contesto dei test, questo processo è anche chiamato **standardizzazione**\footnote{non amo il termine standardizzazione perché penso sia un termine che può creare confusione con trasformazione in punti-z}
+
+## Percentili e cut-off
+
+Il valore che delimita una certa percentuale è detto il **percentile** (es. il 15° percentile è il valore che delimita il 15% delle prestazioni più basse)
+
+
+Tra i percentili rivestono particolare rilevanza alcuni specifici, spesso chiamati **cut-off di normalità**, che in genere è il valore che delimita il **5% delle prestazioni peggiori (5° percentile)**. 
+
+## Cut-off e variabilità
+
+In ambito di sviluppo il cut-off può essere varaibile! E questo crea un impatto su interpretazione.
+Ad esempio, in alcuni test è **-2 SD** (corirrisponde a **2.2%** performance peggiori).
+
+In alcuni test può essere diverso (es. **-1,5** che è circa il **7%** delle performance peggiori)
+
+
+## Arbitrarietà del cut-off
+![](Figures/triangle.png){fig.align="center" width="15%"}
+
+
+Da notare che la soglia del **5%** è arbitraria e non ha in sé nessun significato clinico.
+(è analogo al al valore alpha in statistica che è arbitrariamente posto a 0.05)
+
+
+## Consultare risultati o cut-off
+
+Spesso i percentili corrispondenti ai punteggi (o i cut-off) sono riportati in tabelle, indipendentemente dal metodo usato per calcolarli. Di recente sono sempre più diffusi software che trasformano i punteggi e confrontano in maniera automatica con i cut-offs.
+
+## Esempio di cut-off riportati in tabelle
+
+![](Figures/cutoff_humor.png){width="90%" fig-align="center"}
+\begin{flushright}
+  Da APACS (Arcara \& Bambini, 2016)
+\end{flushright}
+
+
+## Un aspetto delicato
+![](Figures/triangle.png){fig.align="center" width="15%"}
+
+In questa lezione non entrerò all'interno di potenziali discussioni teoriche/epistemologiche sulla esistenza di **disturbi** come categorie separate o come estremi di uno spettro di possibilità. Questo è infatti un problema teorico/clinico.
+
+
+Quello che affronterò è cosa ci dicono i test rispetto a come sono sviluppati (e cosa non ci dicono).
+
+## Due diverse possibilità di disturbo
+
+![](Figures/disturbo_2.png){fig-align="center" width="90%"}
+
+
+## I dati normativi nel contesto del neurosviluppo
+![](Figures/triangle.png){fig-align="center" width="15%"}
+
+I dati normativi sono, per definizione, dati su soggetti normali (con sviluppo tipico). In alcuni test di però possono essere anche inserite soggetti che _non_ sono considerati con normosviluppo.
+
+Questa differenza che può essere a volta dimenticata è invece **fondamentale** per poter interpretare correttamente i risultati ai test.
+
+## Raccolta di dati normativi
+```{=latex}
+\begin{center}
+\begin{tikzpicture}
+
+% --- Your figure -------------------------------------------------------
+\node (img) at (0,0) {\includegraphics[width=0.7\textwidth]{Figures/dati_normativi.png}};
+
+% Top-left
+\only<1>{\fill[white] (-3.5,3) rectangle (0,0);}
+
+% Top-right
+\only<1-2>{\fill[white] (-0.2,3) rectangle (3,0);}
+
+% Bottom-left
+\only<1-3>{\fill[white] (-3.5,0) rectangle (0,-3);}
+
+% Bottom-right
+\only<1-4>{\fill[white] (-0.2,0) rectangle (3,-3);}
+
+
+\end{tikzpicture}
+\end{center}
+\onslide<5> % <-- forces slide 5 to exist
+La linea verticale indica il \textbf{cut-off di normalità}.
+
+
+```
+
+
+## Il significato di cut-off di normalità
+
+```{=latex}
+\begin{columns}
+\column{0.8\textwidth}
+
+Il cut-off è un punteggio particolarmente basso che osserviamo in pochi soggetti normali e che pertanto \underline{inferiamo} sia segno di un deficit cognitivo (talvolta, più nell'adulto, di un "danno").
+\vspace{1em}
+
+In genere il cut-off è definito (arbitrariamente) come il valore che delimita il 5\% dei punteggi più bassi. 
+\vspace{1em}
+
+NOTA: Il cut-off NON ci indica la probabilità che il soggetto sia normale o abbia un danno cognitivo (Vedi \hyperlink{frame:aggiuntivi}{\textbf{\underline{Materiali Aggiuntivi}}})
+
+
+\column{0.2\textwidth}
+
+\begin{figure}
+\includegraphics[scale=0.05]{Figures/triangle.png}
+\end{figure}
+\end{columns}
+```
+
+## Domanda
+
+```{=latex}
+\center 
+
+\emph{Immaginate di testare 100 bambini di scuola primaria con la WISC-IV e che i dati normativi siano stati ottenuti solo su bambini che si assume essere sani. Immaginate inoltre di sapere con certezza (è un esperimento mentale), che sappiate già che i bambini sono tutti con sviluppo tipico.}
+
+\emph{che percentuale di bambini vi aspettate cada al di sotto del cut-off del 5° percentile?}
+```
+
+## Una domanda "trabocchetto"
+![](Figures/triangle.png){fig-align="center" width="15%"}
+
+Un aspetto controintuitivo dei cut-off di normalità (quando ottenuti solo su sani), è che anche i sani possono andare sotto cut-off e questo è assolutamente previsto dal modo in cui sono definiti (specie se il campione normativo è composto di soli sani).
+
+La risposta corretta è circa il 5% dei bambini.
+
+## Andare sotto il cut-off $\neq$ avere un deficit
+
+![](Figures/triangle_2.png){fig-align="center" width="35%"}
+
+**Andare sotto il cut-off (5° percentile) non significa necessariamente avere un deficit**
+
+
+Da un punto di vista psicometrico significa avere una performance che è improbabile osservare nel gruppo di riferimento.
+
+
+## Composizione del gruppo di riferimento 1/2
+
+Nei test del neurosviluppo talvolta la composizione del campione di riferimento include anche bambini con sviluppo non tipico (es. Leiter-III).
+
+In questo caso la possibile interpretazione cambia! perchè (idealmente) i punteggi più bassi identificano proprio questo gruppo, ma non possiamo esserne certi.
+
+In questo caso (in teoria) i cut-off sono più bassi, ma al di sotto si ha maggiore probabilità (non nota) di classificare una performance "anomala".
+
+## Composizione del gruppo di riferimento 2/2
+
+Alcuni test sul neurosviluppo possono escludere invece alcuni individui sulla base di punteggi ad altri test. Questi test sono più severi (cut-off più alti).  Nel confronto con altri test dobbiamo considerare questo.
+
+A meno che non diamo per scontato che quelli esclusi fossero tutti "deficitari"/"atipici", il rischio è avere tolto anche dei tipici, con risultati quindi meno conservativi.
+
+
+## Domanda
+
+```{=latex}
+\center 
+
+\emph{Un vostro collega vi segnala un test molto interessante con ottime proprietà psicometriche (validità e affidabilità) che sta diventando molto popolare in Inghilterra. Sostiene che l'ha tradotto e funziona molto bene.}
+
+
+\emph{Utilizzereste questo test?}
+
+\emph{Perché?}
+```
+
+
+## Dati normativi e rappresentatività
+
+Un aspetto cruciale dei cut-off è che hanno un significato solo quando sono _rappresentativi_ dell'individuo da valutare.
+
+Nel caso dei disturbi del neurosviluppo è particolarmente delicato definire cosa si intende per rappresentativi. 
+
+## Variabili da considerare nei dati normativi
+
+Nei test di neurosviluppo di norma i dati sono divisi per età con una certa granularità (es. dati e soglie divise per anno di età).
+
+Alcune variabili sono meno rilevanti (es. scolarità che per scuola dell'obbligo è poco variabile)
+
+**Altre variabili sono potenzialmente rilevanti, ma non è detto siano incluse** (es. _Stato Socio-Economico_).
+
+Qui un problema psicometrico/statistico si intreccia con un problema teorico (se vengo da una situazione che mi da uno svantaggio, ho un disturbo? Oppure semplicemente parto da una situazione diversa)
+
+## Variabili demografiche e performance nello sviluppo
+![](Figures/race.png){fig-align="center" width="70%"}
+
+
+## Variabili da considerare nei dati normativi
+
+Sapere quali sono le variabili considerate nella composizione del campione normativo è fondamentale per rispondere alla domanda:
+è strana la performance che mi aspetto per chi sto valutando?
+
+## Interpretazione del confronto con i dati normativi
+
+Ricordiamo che c'è un doppio passaggio quando si confronta un risultato con i dati normativi. 
+Il risultato di classificazione ci dice come la valutazione si colloca rispetto alla distribuzione dei dati del campione di riferimento (es. 5° percentile, significa che solo il 5% del campione ha un punteggio così basso).
+
+
+**Il fatto che il punteggio basso segnala un deficit è un'inferenza**
+
+
+## Percentili, cut-offs e statistica
+
+
+Anche se spesso non è chiaro, il confronto di un punteggio con un cut-off al 5% si configura come l'applicazione di un **test statistico** per arrivare ad una decisione (inferenza satistica).
+
+I test test statistici utilizzati in contesto clinico sono spesso non convenzionali perché _applicati al caso singolo_ (mentre gran parte della statistica inferenziale stima effetti medi riferiti a gruppi).
+
+In ogni test statistico **più ampio è il campione, più robusta è l'inferenza**.
+
+## Come si calcolano i percentili e cut-offs?
+
+- Metodi parametrici (Media, deviazione standard e Z score)
+- Metodi non parametrici
+- Altri metodi (regressioni)
+
+## Metodi parametrici (base) per il calcolo dei cut-off
+
+![](Figures/gaussiana.png){width="80%" fig-align="center"}
+\small
+*NOTA*: riferirci alla curva normale e alla trasformazione in punti $Z$ ci aiuta ad identificare percentili, cioè valori che delimitano percentuali note di dati.
+
+*I metodi parametrici possono essere usati con sicurezza solo se la distribuzione è normale (gaussiana)*
+
+
+## Metodi parametrici (base) per il calcolo dei cut-off
+
+1) **Media e deviazione standard**. Se la distribuzione è normale possiamo calcolare i percentili usando questi valori. Il cut-off del 5% dei punteggi più bassi, ad esempio è 1.64 deviazioni standard sotto la media.
+
+
+2) **Z-score**. Metodo analogo al precendete. Se trasformiamo i dati in punti $Z$, un punteggio pari a -1.64 indica il cut-off dei 5% dei punteggi più bassi. Altri valori corrispondono a percentuali diverse.
+
+
+$$
+Z = \frac{X - M}{SD}
+$$
+$$
+\small
+\begin{aligned}
+X & = \text{punteggio ottenuto dal soggetto} \\
+M & = \text{media del gruppo di riferimento} \\
+SD & = \text{deviazione standard del gruppo di riferimento} \\
+\end{aligned}
+$$
+
+
+## Valutare i deficit cognitivi
+
+```{=latex}
+\begin{columns}
+\column{0.5\textwidth}
+
+\begin{center}
+\textbf{distribuzione normale}
+\end{center}
+\vspace{1em}
+\begin{figure}
+\includegraphics[scale=0.25]{Figures/distr_norm.png}
+\end{figure}
+\textbf{ }
+
+\column{0.5\textwidth}
+
+\begin{center}
+\textbf{distribuzione non-normale}
+\end{center}
+\vspace{1em}
+\begin{figure}
+\includegraphics[scale=0.25]{Figures/distr_nonnorm.png}
+\end{figure}
+
+\begin{center}
+test con \textbf{effetto soffitto}
+\end{center}
+
+\end{columns}
+```
+
+## Valutare i deficit cognitivi
+
+```{=latex}
+\begin{columns}
+\column{0.8\textwidth}
+Se si usano i punti z con distribuzioni non normali, la corrispondenza tra specifici punteggi z e percentuali può non essere rispettata.
+\vspace{2em}
+
+Ad esempio -1.64 può non corrispondere al valore che delimita 5\% dei punteggi più bassi, portando a ragionamenti potenzialmente sbagliati.
+\column{0.2\textwidth}
+
+\begin{figure}
+\includegraphics[scale=0.05]{Figures/triangle.png}
+\end{figure}
+\end{columns}
+```
+
+## Parentesi
+  
+\textbf{Standardizzare (trasformare in z-score) a volte è anche detto "normalizzare", ma non rende la distribuzione \textit{normale}!}
+
+![](Figures/distribuzioni_normalizzate.png){width="100%" fig-align="center"}
+
+## Metodi non parametrici (base) per il calcolo dei cut-off
+
+I **percentili non parametrici** sono il metodo più diffuso di calcolo dei cut-off nel caso di distribuzioni non normali.
+
+
+Lo svantaggio dell’utilizzo di percentili è che non è possibile usare formule rapide per ricavare cut-off a diverse percentuli (ad esempio il 20% dei punteggi peggiori) ma è necessario avere a disposizione tutti i dati (se il test non fornisce questi valori non è possibile avere una classificazione più precisa, es. la prestazione è il 3% o il 2% o l'8%, etc.)
+
+## Tabelle e fasce 
+
+I dati normativi del neurosviluppo che usano z-score oppure percentili non parametrici usano spesso tabelle divise per anno di età.
+
+Questo però crea un problema e cioè **gradini arbitrari** tra fasce. Es. 3-4 anni e poi 5. Con questi gradini ad un piccolo cambiamento di età può corrispondere importanti cambiamenti nei percentili/cut-offs.
+
+## Esempio Tabella 1
+
+\scriptsize
+
+ Percentile | Età 8 | Età 9 | Età 10 |
+|------------|-------|--------|--------|
+| N         | 100    | 100   | 100 |
+| Media          | 20    | 24     | 20     |
+| SD         | 2    | 5     | 6     |
+
+
+
+\normalsize
+un punteggio di 18 per un bambino di 9 anni.
+
+Z = (18 - 24) / 5 = - 1.2
+
+
+Z pari a -1.2 corrisponde al **11.5°** percentile.
+
+(cercate online conversione punteggi z a percentile).
+
+
+## Esempio tabella 2
+\scriptsize
+
+ Percentile | Età 8 | Età 9 | Età 10 |
+|------------|-------|--------|--------|
+| 5          | 12    | 14     | 16     |
+| 10         | 14    | 16     | 18     |
+| 15         | 15    | 18     | 20     |
+| 20         | 16    | 19     | 22     |
+| 25         | 17    | 20     | 23     |
+| 30         | 18    | 21     | 24     |
+| 35         | 19    | 22     | 25     |
+| 40         | 20    | 23     | 26     |
+| 45         | 21    | 24     | 27     |
+| 50         | 22    | 25     | 28     |
+| 55         | 23    | 26     | 29     |
+| 60         | 24    | 27     | 30     |
+| 65         | 25    | 28     | 31     |
+| 70         | 26    | 29     | 32     |
+| 75         | 27    | 30     | 33     |
+| 80         | 28    | 31     | 34     |
+| 85         | 29    | 32     | 35     |
+| 90         | 30    | 33     | 36     |
+
+
+## Esempio tabella 3
+\scriptsize
+
+Percentile | Età 8-10 | Età 11-12 | Età 12-14 |
+|------------|-------|--------|--------|
+| 5          | 12    | 14     | 16     |
+| 10         | 14    | 16     | 18     |
+| 15         | 15    | 18     | 20     |
+| 20         | 16    | 19     | 22     |
+| 25         | 17    | 20     | 23     |
+| 30         | 18    | 21     | 24     |
+| 35         | 19    | 22     | 25     |
+| 40         | 20    | 23     | 26     |
+| 45         | 21    | 24     | 27     |
+| 50         | 22    | 25     | 28     |
+| 55         | 23    | 26     | 29     |
+| 60         | 24    | 27     | 30     |
+| 65         | 25    | 28     | 31     |
+| 70         | 26    | 29     | 32     |
+| 75         | 27    | 30     | 33     |
+| 80         | 28    | 31     | 34     |
+| 85         | 29    | 32     | 35     |
+| 90         | 30    | 33     | 36     |
+
+
+
+
+## Domanda
+
+```{=latex}
+\center 
+
+\emph{Supponiamo che dobbiate valutare una bambina che compie gli anni un mese dopo la vosta valutazione.}
+
+
+\emph{Con quale valore confrontereste? Con l'età attuale oppure con quella più vicina?}
+```
+
+## Domanda
+```{=latex}
+\center 
+
+\emph{Quando usate una soglia. Sapete su quanti soggetti è stata ottenuta?}
+
+
+\emph{Supponiamo che sia stata ottenuta su 15 persone oppure su 100. La considerereste allo stesso modo?}
+
+\emph{Perché?}
+```
+
+
+## Campione e Popolazione nei dati normativi
+
+I dati normativi sono i dati raccolti da un **campione** proveniente da una **popolazione**.
+
+L’interesse è però sempre confrontare la prestazione osservata con i dati della popolazione. Alcuni metodi tengono conto di questa differenza, fornendo dei percentili che sono una stima di quelli che si osserverebbero nella popolazione. Altro modo per pensare a questo problema è che i percentili tengono in considerazione i limiti della dimensione del campione.
+
+**Questi cut-off sono spesso più bassi** (più conservativi nell'identificare un deficit).
+
+## Perché questa distinzione è importante?
+
+![](Figures/normativi_percentili.png){width="80%" fig-align="center"}
+\small
+La figura mostra tre ipotetici campioni (n=25) estratti dalla stessa popolazione.
+
+Il numero sopra indica il cut-off vero (5%) e sotto sono indicati quello ottenuto nei campioni.
+
+## Numerosità minime.
+![](Figures/triangle.png){fig-align="center" width="15%"}
+
+Se si utilizzano metodi che dividono in fasce servono circa **100 soggetti** perché la probabilità di errore nella stima diventi quella nominale.
+
+(si vedano \hyperlink{frame:aggiuntivi}{\textbf{\underline{Materiali Aggiuntivi}}}, ma di base significa che con 100 soggetti per cella il valore è sufficientemente ampio.)
+
+
+## Tabelle e altre variabili
+
+Da notare che con metodi che usano fasce (es. z-score, medie, etc.), se vogliamo aggiungere altre variabili (es. Stato socio economico, lavoro dei genitori, etc.), dovremmo ulteriormente dividere il campione, con conseguente riduzione delle numerosità.
+
+
+## Altri metodi (avanzati) per il calcolo dei cut-off
+
+Esistono altri metodi per il calcolo dei cut-off. La maggior parte prevedono l’uso di regressioni.
+
+Il vantaggio, rispetto a metodi che prevedono la divisione in fasce è che con questi metodi **non avviene una stratificazione arbitraria**.
+
+Esempi:
+
+- metodo dei Punteggi Equivalenti (Capitani & Laiacona, 2007)
+
+- Alcuni metodi di Crawford (Crawford & Garthwaite, 2006)
+
+
+## Regressioni e variabili demografiche nei dati normativi
+
+I dati normativi spesso calcolati separatamente per età e scolarità o altre variabili demografiche, per poter confrontare adeguatamente la prestazione di un determinato individuo.
+
+I metodi che utilizzano regressioni cercano di modellare l’effetto di età e scolarità e tenerne conto.
+
+## Metodi di regressione: variabili da considerare
+
+
+![](Figures/tele_gems.png){width="100%" fig-align="center"}
+
+## Variabili demografiche nei dati normativi
+
+I metodi «base» descritti (z-score, percentili) di solito dividono il campione in vari sotto-campioni e calcolano diversi cut-off per ciascun sotto-campione.
+
+- In genere sono forniti valori separati per diverse combinazioni di età e scolarità, suddivise in fasce.
+
+- Possono essere fornite tabelle di correzioni, o a volte singole correzioni (ad esempio +2 per sesso femminile).
+
+## Variabili demografiche nei dati normativi
+
+I metodi che utilizzano regressioni non suddividono il campione totale. In genere forniscono i cut-off in diverse modalità.
+
+- Un singolo cut-off e tabelle di correzione.
+
+- Un singolo cut-off e formule incomprensibili per calcolare la correzione.
+
+- Tabelle con diversi cut-off, per le varie combinazioni di età, scolarità o sesso.
+
+## Variabili demografiche nei dati normativi
+
+![](Figures/cutoff_humor.png){width="80%" fig-align="center"}
+
+$$
+\scalebox{0.85}{$
+sd_{Y_i-\hat{Y_i}} = \frac{SE_{Y-\hat{Y}}}{\sqrt{n}}\sqrt{n+1+\frac{z_{i,age}^2}{1-R_{age}^2}+\frac{z_{i,education}^2}{1-R_{i,education}^2}-2\frac{\beta_{education,age}z_{i,age}z_{i,education}}{1-R_{education}^2}}
+$}
+$$
+
+## Quale è il metodo migliore per il calcolo dei cut-off?
+
+
+Dipende.
+
+
+Metodi che utilizzano distinizione campione/popolazione sono preferibili.
+
+Se z-score, medie o deviazioni standard, o percentili non parametrici **sarebbe preferibile almeno 100 soggetti per gruppo**.
+Altrimenti la classificazione può essere molto specifica sul campione. 
+
+Attenzione ai test che usano metodi basati su regressioni. Talvolta possono portare a stime distorte, specie per valori delle variabili (età e scolarità) che sono estremi (es. bassa scolarità o alta età), specie se campione non è distribuito omogeneamente.
+
+## Posso conoscere la probabilità di avere deficit o meno? 1/2
+
+Una domanda che potrebbe sorgere è: queste probabilità/percentili sono tutte molto controintuitive.
+Non c'è un modo per sapere un'informazione più semplice e diretta? Es.:
+
+_Quale è la probabilità che la/il bambina/o abbia un deficit?_
+
+
+La risposta è, purtroppo,: \textbf{no}
+(se volete approfondire, dovreste vedere slides "Identificare una condizione di interesse in \hyperlink{frame:aggiuntivi}{\textbf{\underline{Materiali Aggiuntivi}}})
+
+## Posso conoscere la probabilità di avere deficit o meno? 2/2
+
+**Le probabilità/percentuali vanno interpretate in maniera indicativa e interpretate in integrazione con altre informazioni per giungere ad una conclusione**.
+
+
+## Riepilogo su quanto detto finora su dati normativi
+
+\small
+- I dati normativi servono per stimare la prestazione che ci aspetterebbe da un certo individuo tramite i dati di individui che sono simili all’individuo da valutare.
+
+- Il confronto con dati normativi è fatto per effettuare un’inferenza su un possibile deficit cognitivo (disturbo funzionale, che sia legato a danno o sviluppo o pre- esistente) o danno (peggioramento) dello stato cognitivo del paziente. Spesso i metodi usati sono uguali, quello che cambia e l’interpretazione.
+
+- I percentili ci indicano quanto è _improbabile_ osservare quella prestazione così bassa nel gruppo usato di riferimento.
+
+
+## Aspetti da considerare nell’utilizzo dei dati normativi
+
+Come principio generale, per stimare correttamente la prestazione del mio soggetto (e rendere sensato il confronto con i dati normativi), i dati normativi devono essere rappresentativi. Di seguito sono esaminate alcune comuni domande.
+
+## Aspetti da considerare nell’utilizzo dei dati normativi (1)
+
+
+**1) Utilizzare dati normativi aggiornati**
+\vspace{2em}
+
+Dati normativi raccolti molti anni fa possono non essere adeguati. Questo è legato al cosiddetto Flynn effect (Flynn, 1987; Williams, 2013)
+
+## Aspetti da considerare nell’utilizzo dei dati normativi (2)
+
+**2) Specie per stimare il danno è importante che gli individui dei campioni normativi siano simili all’individuo da valutare. (campione ampio, ma non simile non è utile).**
+\vspace{2em}
+
+Un campione molto numeroso ma poco rappresentativo non è utile.
+
+## Aspetti da considerare nell’utilizzo dei dati normativi
+
+
+```{=latex}
+\begin{columns}
+\column{0.8\textwidth}
+\small
+\textbf{3) Utilizzare dati normativi paese-specifici.}
+\vspace{1em}
+
+Non si può stimare la prestazione a partire dai dati di soggetti che provengono da altri paesi. \textbf{Non basta tradurre un test per renderlo utilizzabile.}
+
+Non è solo un fattore di lingua e di adattamento (che già minano la validità del test) ma anche legato ad aspetti socioculturali che possono rendere i dati normativi non adeguati. Non basta avere stessa età e la scolarità a rendere un soggetto comparabile con dati normativi.
+L’iniziale diffusione del \textbf{MoCA} (Nasreddine et al., 2005) in Italia, è un caso lampante di questa prassi profondamente scorretta.
+
+\column{0.2\textwidth}
+
+\begin{figure}
+\includegraphics[scale=0.05]{Figures/triangle.png}
+\end{figure}
+\end{columns}
+```
+
+## Aspetti da considerare nell’utilizzo dei dati normativi
+
+
+```{=latex}
+\begin{columns}
+\column{0.8\textwidth}
+\small
+\textbf{3) Utilizzare dati normativi paese-specifici.}
+\vspace{1em}
+
+Il razionale di uso dati normativi è quello di confrontare la prestazione con prestazione di persone “simili alla persona che intendiamo valutare”. 
+
+Usare norme da altri paesi è già in sé una grande differenza. Confrontando Norme esistenti tra paesi questo può essere verificato empiricamente. Spesso hanno percentili (e cut-offs) molto diversi.
+
+\column{0.2\textwidth}
+
+\begin{figure}
+\includegraphics[scale=0.05]{Figures/triangle.png}
+\end{figure}
+\end{columns}
+```
+
+## Riepilogo su cut-off
+\small
+- Conoscere come sono calcolati i percentili/cut-off è molto utile per capire come interpretarli.
+
+- Se sono usati punti z, medie ds o percentili non parametrici su fasce (es. di età), sarebbe meglio avere almeno 100 persone per gruppo (se meno, considerate possibili variabilità)
+
+- Se sono usate regressioni, attenzione soprattuto ed effetti agli estremi dei predittori.
+
+- in generale valutate rappresentatività del campione rispetto ad individuo da valutare.
+
+
+
+## Torniamo alla "domanda"
+```{=latex}
+\center 
+
+\emph{Un test ha un sistema di classificazione automatico e tramite un sistema a "black box". Inserendo i punteggi e alcune caratteristiche di chi è valutato, viene restituita una classificazione.}
+
+\emph{Avete informazioni sufficienti per valutare questo risultato e interpretarlo?}
+
+
+Ci mancano tantissime informazioni che ci aiuterebbero a capire meglio il caso e fare una valutazione più precisa e consapevole.
+```
+
+## Interpretazione dei test
+
+Tutte le considerazioni evidenziano come l'utilizzo di un test assume **sempre** un interpretazione.
+
+Di seguito sono ricordati alcuni aspetti chiave e in particolare, che nell'utilizzo dei test facciamo delle assunzioni implicite.
+Dovremmo il più possibile essere consapevoli di queste e di come influenzano le conclusioni che traiamo.
+
+## Assunzioni implicite
+
+Anche semplicemente nell'interpretare valore sotto cut-off $\rightarrow$ deficit nella funzione misurata stiamo assumendo.
+
+- Che il test abbia misurato ciò che intendeva misurare 
+- Che l’ansia abbia avuto un ruolo trascurabile 
+- Che il soggetto era sufficientemente motivato e non ha finto un deficit. 
+- Che eventuali danni ad altre funzioni cognitive non hanno avuto un ruolo 	cruciale. 
+- Che i dati normativi erano adeguati per stimare la prestazione del soggetto. 
+- etc.
+
+## Accento su integrazione non su soggettività
+
+Alcune interpretazioni sono migliori di altre.
+
+Le interpretazioni più adeguate sono quelle che integrano tutte le informazioni disponibili.
+
+
+## Non tutte le evidenze sono uguali
+![](Figures/triangle.png){fig-align="center" width="15%"}
+
+Per ogni insieme di evidenze sono possibili più interpretazioni. 
+
+Non esiste una formula matematica o algoritmo per dire come combinarle, ma esistono interpretazioni peggiori ed interpretazioni migliori che dipendono da come sono correttamente considerate le evidenze disponibili.
+
+In molti casi non sarà facile dire che si ha un’interpretazione “giusta” in mano, ma solo un’interpretazione supportata dalle evidenze.
+
+## Integrazione e ricerca attiva
+![](Figures/Active_collection_2.png)
+
+
+
+## Caso clinico 1 - **AB**
+
+Si effettua in data odierna una valutazione dello stato degli apprendimenti, delle funzioni cognitive e del profilo comportamentale dela minore **AB**, su richiesta dei genitori. La valutazione è richiesta per inquadramento diagnostico di **AB**, per un sospetto disturbo di apprendimento.
+
+
+## **AB** - Dati
+
+- Età: 8 anni
+- Sesso: M
+- Manualità dx
+- Scolarità: 3a primaria
+
+## **AB** - anamnesi personale
+
+AB viene da una famiglia di persone con elevata istruzione. Sin da piccolo i genitori hanno cercato di coinvolgerlo in diverse attività e si sono anche riferiti a diversi specialisti. **AB** è stata seguito da due psicomotricisti, ha fatto un percorso personalizzato per inglese (abbandonato per problemi con la docente).
+
+
+## **AB** - anamnesi medica
+
+nascita senza complicanze. Viene riportato dai genitori un lieve rallentamento nelle tappe dello sviluppo motorio e del linguaggio (riportate dai genitori, ma non confermate da altri esami o dal pediatra). Secondo i genitori il pediatra ha sempre sottovalutato le difficoltà e rallentamenti di **AB**.
+
+## **AB** - anamnesi scolastica
+
+Il percorso scolastico di **AB** è segnato da difficoltà nella relazione con le scuole. I genitori riportano il cambio di due scuole di infanzia per problemi con gl insegnanti. Anche la frequenza alla scuola primaria (paritaria) è stata caratterizzata da ripetuti problemi di **AB** con gli insegnati.
+
+## **AB** - Colloquio
+
+Al colloquio **AB** è collaborante ma irrequieto. Si lamenta rispetto all'esame che sta svolgendo e spesso si rivolge ai genitori (in particolare alla madre). Il comportamento è a tratti inadeguato per l'età (competenze pragmatico/sociali).
+
+## **AB** - Test utilizzati
+Per la valutazione di **AB** sono utilizzati dei test ad hoc che provongono da due diverse Batterie, con lo scopo di avere un approfondimento e doppio check. Alcuni test vengono dalla **VBVB**, (Vecchia Batteria per la Valutazione del Bambino), ed altri vengono invece dalla nuova **NTDA** (Nuovi Test per I Disturbi dell'Apprendimento).
+
+## **AB** - Proprietà psicometriche dei test
+\small
+La batteria VBVB si basa sull'utilizzo di classici paradigmi adattati per testare le funzioni cognitive.
+La affidabilità test-retest va da 0.4 a 0.6. Non sono riportati dati su affidabilità inter-rater o per altri tipi di validità
+
+
+La batteria NTDA riporta validità di costrutto (correlazione con altri test >0.5) con altri test su stessi costrutti.
+La affidabilità test-retest va da 0.8 a 0.9. Non sono riportati dati su affidabilità inter-rater o per altri tipi di validità
+
+## **AB** - Dati normativi dei test
+\small
+I dati normativi della VBVB sono stati ottenuti da 500 partecipanti (italiani), sani, ben divisi nella distribuzione geografica. 
+I bambini testati hanno età dai 6-10 anni, divisi in gruppi per anno di età. Ogni gruppo ha circa 40-50 bambini. I percentili sono calcolati tramite z-score (il test riporta media e deviazione standard per calcolarli).
+
+
+I dati normativi della NTDA sono stati ottenuti da 800 partecipanti (italiani), sani, soprattutto provenienti dal nord Italia.
+I bambni testati hanno età dai 6-10 anni. Per i confronti con fruppo di riferimento è usato un metodo con regressione.
+
+
+## **AB** - Risultati ai test
+
+```{=latex}
+\tiny
+\begin{table}[h!]
+\centering
+\begin{tabular}{llccc}
+\toprule
+\textbf{Test} & & \textbf{PG} & \textbf{PZ} & \textbf{Percentile} \\
+\midrule
+\multirow{3}{*}{\textit{VBVB}} 
+& Lettura di brano (Sillabe corrette al sec.) & 5 & -0.85 & $19°$ \\
+& Dettato di brano (Parole corrette in 2 min.) & 8 & -1.32 & $9°$ \\
+& Calcolo scritto (Risposte corrette) & 3/15 & -1.52 & $6°$ \\
+\midrule
+
+\multirow{3}{*}{\textit{NTDA}} 
+& Lettura di brano (Sillabe corrette al sec.) & 6 & -1.68 & $\mathbf{4°}$ \\
+& Dettato di brano (Parole corrette in 2 min.) & 4 & -1.82 & $\mathbf{3°}$ \\
+& Calcolo scritto (Risposte corrette) & 1/20 & -2.20 & $\mathbf{1°}$ \\
+\midrule
+
+\bottomrule
+\end{tabular}
+\end{table}
+
+```
+
+## Caso clinico 2 - **BC**
+
+Si effettua in data odierna una valutazione dello stato degli apprendimenti, delle funzioni cognitive e del profilo comportamentale del minore **BC**, su richiesta della madre XXXX. La valutazione è stata consigliata dalla scuola di **BC**, avendo rinvenuto difficoltà scolastiche (in particolare in Italiano e in Matematica), meritevoli di approfondimento specialistico.
+
+## **BC** - Dati
+
+- Età: 14 anni
+- Sesso: M
+- Manualità dx
+- Scolarità: 1a secondaria di II grado
+
+## **BC** - anamnesi personale
+
+Nato e cresciuto in Moldavia fino all'età di 10 anni, si trasferisce in Italia 4 anni fa. Il padre è uscito dalle vite da molto tempo. Risiede a XXX insieme alla madre e il suo nuovo compagno.  Viene descritto come un ragazzo solitario che ama passare gran parte del suo tempo davanti al computer. Da più piccolo praticava calcetto, ma ha smesso da alcuni anni.
+
+## **BC** - anamnesi medica
+
+nascita con complicanze. Cesareo di urgenza (per rilevazione assenza di battito). Segni di ipossia al momento della nascita con breve permanenza in terapia intensiva neonatale. Nella norma tappe motorie e linguistiche (lingua madre). No segni di altre disfunzioni. Lieve miopia (corretta con occhiali da vista).
+
+## **BC** - anamnesi scolastica
+
+**BC** comincia il suo percorso scolastico in Moldavia, prima del trasferimento in Italia. Poco dopo l'inizio del suo trasfrimento è costretto a studiare tramite modalità telematica (per via del COVID). Attualmente frequenta la prima classe di un istituto professionale ma è considerato già ad alto rischio di bocciatura. Punti deboli sono Italiano. Punto forte Informatica.
+
+## **BC** - Colloquio
+
+Al colloquio **BC** è collaborante è motivato, lamenta a volta di avere difficoltà a trovare le parole. Il suo eloquio appare caratterizzato da un forte accento e scarsa padronanza della lingua Italiana (sia lessicale, sia pragmatica). Tono di umore è deflesso.
+
+## **BC** - Valutazione tramite test
+
+Per la valutazione viene utilizzata la batteria BINS (Batteria Inesistente del Neurosviluppo), di Giorgio et al. 2020.
+La batteria è stata tarata su circa 1100 bambine e bambini Italiani con fascia di età 10-18 anni.
+I dati normativi sono stati raccolti secondo un piano di circa 70 soggetti per gruppo, (maschi e femmine).
+I cut-off sono stati ottenuti tramite un metodo di regressione che tiene anche conto della differenza tra campione e popolazione.
+
+
+## **BC** - Risultati ai test
+
+```{=latex}
+\tiny
+\begin{table}[h!]
+\centering
+\begin{tabular}{llccc}
+\toprule
+\textbf{BINS 12-18 (Giorgio et al., 2020)} & & \textbf{PG} & \textbf{PZ} & \textbf{Percentile} \\
+\midrule
+\multirow{3}{*}{\textit{Apprendimenti}} 
+& Lettura di brano (Sillabe corrette al sec.) & 2.10 & -2.32 & $\mathbf{<1°}$ \\
+& Dettato di brano (Parole corrette in 2 min.) & 20 & -3.32 & $\mathbf{<1°}$  \\
+& Calcolo scritto (Risposte corrette) & 1/12 & -3.44 & $\mathbf{<1°}$  \\
+\midrule
+
+\multirow{2}{*}{\textit{Memoria}}
+& Span verbale diretto & 6/9 & 0.06 & Norma \\
+& Span verbale inverso & 4/8 & -0.38 & Norma \\
+\midrule
+
+\multirow{1}{*}{\textit{Attenzione}}
+& Attenzione visiva selettiva & 14/21 & -0.08 & Norma \\
+\midrule
+
+\multirow{2}{*}{\textit{Ragionamento e funzioni esecutive}}
+& Ragionamento spaziale (RAVEN) & 35/48 & -1.22 & Norma \\
+& Fluenza fonemica (Parole totali) & 19 & -1.92 & $\mathbf{2°}$ \\
+\midrule
+
+\multirow{2}{*}{\textit{Linguaggio}}
+& Fluenza categoriale (Parole totali) & 30 & -1.83 & $\mathbf{3°}$  \\
+& Denominazione lessicale (Risposte corrette) & 50/80 & -3.8 & $\mathbf{<1°}$  \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+```
+
+
+## Recap finale 1/3
+**Qualità di uno strumento psicometrico** (alcune rule-of-thumb)
+
+- **Validità** (dipende, ci si attende almeno moderata sullo stesso costrutto, $r \geq 0.4$)
+- **Affidabilità**  ($r \geq 0.80$, $ICC \geq 0.70$)
+
+Cercate più informazioni possibili sui diversi tipi di Validità e Affidabilità.
+
+## Recap finale 2/3
+**Dati normativi**
+
+- studiate composizione del campione (è rappresentativo? quali variabili)
+- se ci sono fasce guardate numero di partecipanti e metodo usato (se z-score o percentili non par. meglio se **>100**)
+- una buona valutazione dovrebbe essere _consapevole_ di questi aspetti (attenzione a sistemi a "black box").
+
+## Recap finale 3/3
+
+- ricordate che nell'utilizzo di un test avviene sempre un'**interpretazione** 
+- Non dimenticate che ci sono altre qualità! (es. soglie per valutare cambiamenti nel tempo).
+
+per queste (non trattate) vedi \hyperlink{frame:aggiuntivi}{\textbf{\underline{Materiali Aggiuntivi}}}
+
+
+## Conclusione
+
+![](Figures/Active_collection_2.png)
+
+
+-->
+
+## Materiali Aggiuntivi
+\label{frame:aggiuntivi}
+
+Puoi scaricare materiali aggiuntivi da questo \href{https://drive.google.com/drive/folders/15IM7YOYKyCpNT-WTDP-vEYpjhBW4cbE2?usp=drive_link}{\textbf{\underline{Link}}}
+
+
+## Grazie dell'attenzione
+```{=latex}
+
+\begin{columns}
+\column{0.5\textwidth}
+\begin{center}
+{\large \textbf{Giorgio Arcara}}\\
+\vspace*{1em}
+giorgio.arcara@unipd.it\\
+giorgio.arcara@gmail.com\\
+\end{center}
+\vfill
+
+\column{0.5\textwidth}
+\begin{center}
+\href{https://giorgioarcara.github.io/oip-book/}{\underline{Oltre i Punteggi}}
+\vspace*{1em}
+\begin{figure}
+\includegraphics[scale=0.15]{Figures/Cover2.png}
+\end{figure}
+\url{https://oltreipunteggi.substack.com/p/oltre-i-punteggi-presentazione-del}
+\end{center}
+\end{columns}
+```
+
+
+
+<!--
+
+# \normalsize 2. Standardizzazioni e nelle tavole normative dei test italiani
+
+##
+
+# \normalsize 3. Uso critico per fini clinici delle informazioni presenti nelle tavole normative
+
+## 
+
+# \normalsize 4. Integrare i risultati ai test con le altre informazioni cliniche (es. da colloquio, anamnesi etc.) per l’interpretazione corretta dei risultati ai test.
+
+## 
+
+-->
